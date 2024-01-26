@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> CSS Grid </title>
+    <style>
+        main{
+    display: grid;
+    grid-template-areas:
+        "head head head"
+        "side content content"
+        "foot foot foot";
+        grid-template-rows: 80px auto 30px;
+}
+header {grid-area : head;background-color: blue; width: 1350px; height: 80px; text-align: center; color: red; font-size: 8; }
+article {grid-area: content; background-color: rgb(204, 177, 102); width: 617px; height:480px; }
+aside { grid-area: side; background-color: violet; width: 600px; height:480px;}
+footer{ grid-area :foot; background-color: rgb(139, 60, 60); width: 1350px; height: 80px;}
+    </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>
+                    <div>
+                        Menu
+                    </div>
+                </h1>
+            </header>
+            <article>
+                content
+            </article>
+            <aside> Sidebar </aside>
+            <footer> Footer </footer>
+            <hr>
+        </main>
+    </body>
+</html>
