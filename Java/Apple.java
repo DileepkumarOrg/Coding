@@ -19,7 +19,7 @@ class Apple implements New {
         System.out.println("Display code");
     }
 
-    }
+    
 
 public static void main(String[] args) {
     Apple obj = new Apple();
