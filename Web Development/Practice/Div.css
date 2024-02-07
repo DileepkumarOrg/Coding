@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+}
+/*.container{
+    height: 500px;
+    background-color: rgb(207, 54, 54);
+    width: 1260px;
+    color: blanchedalmond;
+    display: flex;
+}
+.main1{
+    background-color: aliceblue;
+    width: 615px;
+    margin: 10px;
+    margin-right: 5px;
+}
+.main2{
+    background-color: black;
+    width: 615px;
+    margin: 10px;
+    margin-left: 5px;
+    display: flex;
+}
+.sub1{
+    background-color: blue;
+    width: 595px;
+    margin: 10px;
+    height: 230px;
+}
+.sub2{
+    background-color:#1fb677;
+    width: 595px;
+    margin: 10px;
+    height:220px ;
+}
+.sub3{
+    background-color: white;
+    width: 310px;
+    height: 460px;
+    margin: 10px;
+}
+.sub4{
+    background-color: blueviolet;
+    width: 310px;
+    height: 460px;
+    margin: 10px;
+}*/
+.dileep{
+    background-color: black;
+    display: flex;
+    margin: 100px 100px 100px 100px;
+}
+button{
+    width: 55px;
+    height: 55px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: slategrey;   
+}
+.rg{
+    display: grid;
+}
+.rgbut{
+    height: 22px;
+
+}
