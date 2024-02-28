@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: black;
+    width: 700px;
+    height: 800px;
+    border-radius: 2%;
+    margin:0 400px 0 400px ;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-weight: 100px;
+    font-style: italic;
+    font-size: 45px;
+}
+.text-size{
+    color: antiquewhite;
+    text-align: left;
+    margin: 0 0 0 10px;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: large;
+}

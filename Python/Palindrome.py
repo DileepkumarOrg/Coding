@@ -1,8 +1,8 @@
-n=1254521
-n=list(a)
-print(n)
-a=[]
-while n>0:
-    rem=n%10
-    a.append(rem)
-print(a)
+n="1234321"
+n=list(n)
+length=len(n)
+for i in range(0,length//2):
+    if n[i]==n[-(i+1)]:
+        print("palindrome")
+    else:
+        print("not")

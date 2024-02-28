@@ -1,19 +1,19 @@
-import tkinter as tk
-from PIL import ImageTk, Image
+import textwrap
 
-# create a window
-window = tk.Tk()
+def slice_and_wrap_text(input_text, width):
+    # Use textwrap to wrap the text to the specified width
+    wrapped_text = textwrap.wrap(input_text, width)
 
-# open image file
-image = Image.open('image.png')
+    # Print each line of the wrapped text
+    for line in wrapped_text:
+        print(line)
 
-# convert image to Tkinter PhotoImage object
-photo = ImageTk.PhotoImage(image)
+if __name__ == "__main__":
+    # Example input text
+    input_text = "This is a long piece of text that we want to slice and wrap using textwrap module in Python. It helps in formatting the text to fit within a specified width."
 
-# create a Canvas widget to display the image
-canvas = tk.Canvas(window, width=image.width, height=image.height)
-canvas.create_image(0, 0, anchor='nw', image=photo)
-canvas.pack()
+    # Specify the width for wrapping
+    wrap_width = 30
 
-# start the GUI event loop
-window.mainloop()
+    # Call the function to slice and wrap the text
+    slice_and_wrap_text(input_text, wrap_width)

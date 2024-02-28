@@ -1,8 +1,5 @@
-n="1234321"
-n=list(n)
-length=len(n)
-for i in range(0,length//2):
-    if n[i]==n[-(i+1)]:
-        print("palindrome")
-    else:
-        print("not")
+# Print English alphabets
+for i in range(ord('A'), ord('Z') + 1):
+    print(chr(i), end=' ')
+
+print()  # Print a newline for better readability
