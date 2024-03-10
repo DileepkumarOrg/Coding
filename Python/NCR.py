@@ -6,6 +6,8 @@ def fact(n):
 a = int(input("Enter tha value of N: "))
 r = int(input("Enter the value of R: "))
 if (r>0) & (r<a):
-    sol = fact(a)//(fact(r)*fact(a-r))
+    num=fact(a)
+    den=(fact(r)*fact(a - r))
+    sol = num//den
 else:
     print("Enter valid NCR ")
