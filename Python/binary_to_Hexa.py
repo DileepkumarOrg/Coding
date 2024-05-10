@@ -1,12 +1,14 @@
-def generate_table():
-    #print("{:<5} {:<5} {:<5} {:<5}".format("Decimal", "Binary", "Octal", "Hexadecimal"))
-    length=len(bin(n+1))
-    for i in range(1, 18):
-        binary_str = bin(i)[2:]
-        octal_str = oct(i)[2:]
-        hex_str = hex(i)[2:]
-        print("{:<5} {:<5} {:<5} {:<5}".format(i, octal_str, hex_str, binary_str))
+def print_formatted(number):
+    # your code goes here
+#    l=int(len(bin(n+1)))
+    for i in range(1,n+1):
+        l = len("{0:b}".format(number))
+        b=bin(i)[2:]
+        o=oct(i)[2:]
+        h=hex(i)[2:]
+        print("{:>5} {:>5} {:>5} {:>5}".format(i, o, h, b))
 
+if __name__ == '__main__':
+    n = int(input())
+    print_formatted(n)
 
-# Call the function to generate and print the table
-generate_table()
