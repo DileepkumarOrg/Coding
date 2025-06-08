@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Main.exe",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "D:/Upload Git/Coding/CProgramming/Fibanocci.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "D:/Upload Git/Coding/CProgramming",
+            "environment": [],
+            "console": "integratedTerminal"
+        }
+    ]
+}

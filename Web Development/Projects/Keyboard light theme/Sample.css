@@ -1,61 +1,79 @@
-.container{
+.container {
     margin: 180px 0 0 180px;
 }
-body{
+
+body {
     background-color: #ddd3d3;
 }
-.row{
+
+.row {
     width: 100%;
     height: 60px;
 }
-.one,.two,.three,.four,.five{
+
+.one,
+.two,
+.three,
+.four,
+.five {
     margin: 10px 0 0 0;
 }
-button{
+
+button {
     color: black;
     width: 55px;
     height: 55px;
     border: rgb(232, 17, 17);
     border-radius: 20%;
     background: rgb(252, 252, 250);
-    box-shadow: 5px 5px 10px black,5px -5px 10px white;
+    box-shadow: 5px 5px 10px black, 5px -5px 10px white;
     font-size: 20px;
     margin-left: 5px;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-button:active{
-    box-shadow: 1px 1px 2px white,-1px -1px 2px black;
+
+button:active {
+    box-shadow: 1px 1px 2px white, -1px -1px 2px black;
 }
-.backspace{
+
+.backspace {
     width: 110px;
     border-radius: 10%;
 }
-.sem{
+
+.sem {
     width: 45px;
 }
-.tab{
+
+.tab {
     width: 75px;
 }
-.slash{
+
+.slash {
     width: 80px;
 }
-.caps{
+
+.caps {
     width: 90px;
 }
-.enter{
+
+.enter {
     width: 130px;
     border-radius: 10%;
 }
-.shift1{
+
+.shift1 {
     width: 125px;
-    border-radius: 10%; 
+    border-radius: 10%;
 }
-.shift2{
+
+.shift2 {
     width: 160px;
     border-radius: 10%;
 }
-.space{
+
+.space {
     width: 425px;
     border-radius: 5%;
 }

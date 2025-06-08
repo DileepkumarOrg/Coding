@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Changer and Sum Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Click the button to change background color</h1>
+    <button onclick="changeColor()">Change Color</button>
+    <h1>Sum Calculator</h1>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button onclick="calculateSum()">Calculate Sum</button>
+    <h2 id="result">Result: </h2>
+
+    <h3> Case Example </h3>
+    <label>Enter your Name : </label>
+    <input type="number" id = "Num1" placeholder="Enter your Number : ">
+    <label>Enter your brother : </label>
+    <input type="number" id = "Num2" placeholder="Enter Your Second Number : ">
+    <label>Select operation </label>
+    <select id = "Sym">
+        <option value="+">Addition</option>
+        <option value="-">Substraction</option>
+        <option value="*">Multiplication</option>
+        <option value="/">Division</option>
+        <option value="%">Module Division</option>
+    </select><br><br>
+    <button onclick = "Math()"> Calculate </button>
+    <h2 id = "result1"> Result : </h2>
+    <label>Hello</label>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -17,3 +17,4 @@ int main(){
         }
     }
 }
+// Output: Enter number of fibanocci: 5

@@ -7,3 +7,4 @@ for i in range(0,9):
     print(" ",n3,end="")
     n1=n2
     n2=n3
+    
