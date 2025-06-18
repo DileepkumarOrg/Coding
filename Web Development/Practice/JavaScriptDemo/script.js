@@ -38,3 +38,10 @@ function Math(){
     }
     document.getElementById("result1").innerText = "Result : " + result;
 }
+
+function CalculateAge(){
+    const dob = Date(document.getElementById("dob").value);
+    const today = Date(document.getElementById("today").value);
+    var result2 = today-dob;
+    document.getElementById("result2").innerText = "Result : "+ result2;
+}

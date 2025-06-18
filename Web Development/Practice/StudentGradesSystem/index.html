@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marks and Grades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Enter Student Details : </h1>
+    <div class="div1">
+            <label> Enter student name : </label>
+            <input type="text" id = "name" placeholder="Name of the Student"><br>
+            <label> Enter Marks: </label>
+            <div id = "div2">
+            <input type="number" id = "English" placeholder="English Marks">
+            <input type="number" id = "Hindhi" placeholder="Hindhi Marks">
+            <input type="number" id = "Maths" placeholder="Maths Marks">
+            <input type="number" id = "Science" placeholder="Science Marks">
+            <input type="number" id = "Social" placeholder="Social Marks">
+            </div><br>
+            <button onclick="markGrade()">Submit</button>
+            <h4 id = "grade">Result :  </h4>
+    </div>
+   <script src="script.js"></script>
+
+</body>

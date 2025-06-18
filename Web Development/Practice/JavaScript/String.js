@@ -6,3 +6,11 @@ console.log(s1)
 console.log(s.toUpperCase());
 
 console.log(3 < 5 ? 5 : 3)
+
+
+// To find Length of a String
+let x = "Hello World!"
+console.log(x.length);              // 12
+let text = "We are the so-called \"Vikings\" from the north.";
+console.log(text);
+
