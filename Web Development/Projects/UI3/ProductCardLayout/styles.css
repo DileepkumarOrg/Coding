@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(148, 107, 53);
+}
+
+.container{
+    background-color: rgb(130, 206, 140);
+    padding: 10px;
+    justify-content: center;
+    width: 60em;
+    height: 45em;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 30px;
+    height: 400px;
+}
+
+.secondcontainer{
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
+button{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.AddtoCart{
+    background-color: orange;
+}
+
+.buynow{
+    background-color: tomato;
+}
+
+img:hover{
+    border:1px solid black;
+}
+
+.AddtoCart:hover{
+    background-color:rgb(249, 41, 5);
+}
+.buynow:hover{
+    background-color: rgb(248, 162, 3);
+}

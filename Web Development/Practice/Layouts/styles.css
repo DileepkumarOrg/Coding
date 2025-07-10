@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    min-height: 600px;
+    border: 2px solid white;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items : center  ;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+}
+
+div{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed white;
+}
+
+

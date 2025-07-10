@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.div1{
+    float: left;
+    background-color: aqua;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.div2{
+    float: right;
+    background-color: rgb(72, 74, 181);
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}

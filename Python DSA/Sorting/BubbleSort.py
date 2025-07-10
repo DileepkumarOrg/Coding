@@ -13,3 +13,14 @@ for i in range(len(l)):
         if l[j]>l[j+1]:
             l[j],l[j+1] = l[j+1],l[j]
 print(l)
+
+size = int(input("Enter size : "))
+arr = []
+for i in range(size):
+    arr.append(int(input(f"Enter arr[{i}] : ")))
+print(arr)
+for i in range(size):
+    for j in range(i,size):
+        if arr[i] > arr[j]:
+            arr[i], arr[j] = arr[j], arr[i]
+print(arr)
